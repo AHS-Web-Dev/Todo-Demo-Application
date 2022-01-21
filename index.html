@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="./main.css" type="text/css" />
+	</head>
+	<body>
+		<h1>Web Dev Club's Todo List</h1>
+
+		<div class="add-todo"
+			><h3 class="add-todo-header"> Add Todo </h3>
+			<form class="add-todo-form" id="todo-form">
+				<input type="text" id="add-todo-name" placeholder="Name of Todo" />
+				<br />
+				<textarea
+					name="todo-desc"
+					rows="4"
+					cols="50"
+					maxlength="200"
+					placeholder="Description of Todo"
+				></textarea>
+				<br />
+				<input type="submit" />
+			</form>
+		</div>
+
+		<h2 id="no-todos">No todos added so far - Add one above!</h2>
+		<div id="todo-box">
+			<div id="todo-list"></div>
+		</div>
+
+		<script src="./tut.js"></script>
+	</body>
+</html>
